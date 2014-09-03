@@ -1,0 +1,27 @@
+nav a {
+    color: blue;
+}
+
+article a {
+    color: red;
+}
+
+body {
+    background-image: url(http://3.bp.blogspot.com/-ClOaNjbUPg8/TxBearSJARI/AAAAAAAAAbs/OwFK67EamHY/s1600/electricity.jpg);
+}
+
+#current-link {
+   text-decoration: none;
+}
+
+.uppercase {
+    text-transform: uppercase;
+}
+
+article p {
+    color: dimgray;
+}
+
+article h2 {
+    color: activeborder;
+}
