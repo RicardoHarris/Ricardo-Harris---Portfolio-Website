@@ -79,3 +79,8 @@ h1{
 #tech article h2{
     margin-left: 600px;
 }
+
+#index article #p2{
+    margin-left: 400px;
+}
+/*This left margin is wonkey... fix that*/
