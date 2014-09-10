@@ -1,35 +1,81 @@
 nav a {
     color: blue;
 }
+/*This makes the links to my other pages blue*/
 
 article a {
     color: red;
 }
+/*This makes my Technology link on my projects page red*/
 
-body {
+#index {
     background-image: url(http://3.bp.blogspot.com/-ClOaNjbUPg8/TxBearSJARI/AAAAAAAAAbs/OwFK67EamHY/s1600/electricity.jpg);
 }
+/*This gives a background image of electricity to my index page*/
 
 #current-link {
    text-decoration: none;
+   font-size: 20px;
 }
+/*This makes it so that the links have no decorations*/
 
 .uppercase {
     text-transform: uppercase;
+    font-size: 38px;
 }
+/*This adjusts the size of the uppercase text*/
 
 article p {
-    color: dimgray;
+    color: #222;
+    margin-left: 250px;
 }
+/*This changes the color of my paragraph text to "dimgrey"*/
 
 article h2 {
     color: activeborder;
+    margin-left: 315px;
 }
+/*This changes the color of my h2 text to "activeborder"*/
 
 #pro {
-    background-image: url()
+    background-image: url(http://img.gamefaqs.net/screens/0/e/e/gfs_18739_2_11.jpg);
 }
+/*This makes the background image of my projects page the end of a map on super mario bros*/
 
 #tech {
-    background-image: url()
+    background-image: url(http://www.naweedqadir.com/uploads/8/8/5/9/8859807/5020724_orig.jpg);
+    background-size: cover;
+}
+/*This makes the background image of my technology page one of the HTML5 and CSS3  and adjusts it to fill the page background*/
+
+img{
+    width: 400px;
+    height: auto;
+    margin-left: 420px;
+}
+/*This makes the images on my pages 400 pixels wide and it auto's it out to look mare natural and less stretched*/
+
+h1{
+    border: 2px solid black;
+    padding: 5px;
+    padding-left: 100px;
+    margin-right: 500px;
+    margin-left: 400px;
+}
+/*This puts a black border around my h1 element 2 pixels wide with a 5 pixel padding and a 500 pixel margin from the right/left*/
+
+#tech article h2{
+    color: black;
+}
+
+#pro article p{
+    margin-left: 400px;
+}
+
+#tech article p{
+    margin-left: 400px;
+}
+
+#tech article h2{
+    margin-left: 600px;
 }
